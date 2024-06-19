@@ -1,0 +1,191 @@
+.container{
+    margin: 10px 200px 2px 200px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.contact{
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+.sub{
+    text-align: center;
+    font-size: 22px;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.hard-skills{
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-left:solid black 2px;
+    border-bottom:solid black 2px;
+
+}
+.soft-skills{
+    float: right;
+    width: 50%;
+    text-align: center;
+    border-left:solid black 2px;
+    border-bottom:solid black 2px;
+    border-right:solid black 2px;
+}
+
+ul{
+    text-align: left;
+}
+
+h3{
+    border-top:solid black 2px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+    margin-top: 0;
+    border-left:solid black 2px;
+    
+}
+.tech-skills{
+    text-align: center;
+    border-bottom:solid black 2px;
+    border-left:solid black 2px;
+    border-right:solid black 2px;
+}
+.date{
+   float:right;
+   font-weight: bold;
+}
+.indent{
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
+
+.italics{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#nav-bar{
+   
+    /* background-color: azure; */
+    /* height: auto; */
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height: max-content;
+    margin:0;
+    padding-top: 5px;
+
+}
+
+.menu{
+    width: fit-content;
+    cursor:pointer;
+    
+
+}
+
+.menu span{
+    padding: 5px;
+    background-color: wheat;
+    border-radius: 5px;
+
+}
+
+.menu span a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.items{
+    list-style-type: none;
+    padding: 2px;
+}
+
+.drop-down ul{
+    padding: 0;
+    margin: 0;
+}
+
+.drop-down{
+    display: none;
+    width: 100px;
+    box-shadow: 5px 5px 5px #c9e5ee;
+    background-color: #ebe3e3;
+    position: absolute; 
+    /* position absolute */
+
+}
+
+.items:hover{
+    background-color: #d9d9d9;
+    text-align: center;
+}
+
+.menu:hover .drop-down{
+    display: block;
+}
+
+.drop-down a{
+    text-decoration: none;
+    color: black;
+}
+
+.arrow{
+    align-self: flex-end;
+    margin-top: 20px;
+}
+.arrow img{
+    width: 30px;
+}
+
+.arrow-Left{
+    float: left;
+}
+
+.arrow-Left img{
+    width: 30px;
+}
+
+#Projects a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .link{
+    text-decoration: none;
+    color: black;
+} */
+
+.vid{
+    align-self: center;
+}
+
+img{
+    align-self: center;
+}
+
